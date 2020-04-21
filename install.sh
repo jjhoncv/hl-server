@@ -22,7 +22,7 @@ rm -fr hl.tar.xz
 cd /root/hl-server
 # install podbot
 unzip addons/podbot_full_v3b21.zip -d /root/hl/cstrike/addons
-cp wptdefault /root/hl/cstrike/addons/podbot/wptdefault/
+cp -rf wptdefault /root/hl/cstrike/addons/podbot/wptdefault/
 
 # config plugins
 cp -rf plugins.ini /root/hl/cstrike/addons/metamod/plugins.ini 
