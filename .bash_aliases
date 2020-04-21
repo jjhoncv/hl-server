@@ -1,0 +1,5 @@
+alias hl-restart='systemctl restart rc-local'
+alias hl-stop='systemctl stop rc-local'
+alias hl-start='systemctl start rc-local'
+alias hl-status='systemctl status rc-local'
+alias hl-log='screen -r hl-server'
