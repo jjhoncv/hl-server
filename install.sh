@@ -12,6 +12,7 @@ echo "[wine instalado]"
 wine --version
 
 # install half life
+cd /root
 mkdir hl 
 cd hl
 wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1T-4dpmfeS6gWq90iZU7fssWXAha47_L-' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1T-4dpmfeS6gWq90iZU7fssWXAha47_L-" -O hl.tar.xz && rm -rf /tmp/cookies.txt
