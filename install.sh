@@ -34,11 +34,10 @@ echo 'config password default 123'
 
 cp -rf autoexec.cfg /root/hl/cstrike/autoexec.cfg
 
-cp -rf resolvconf /etc/resolvconf
+echo 'nameserver 1.1.1.1
+nameserver 8.8.8.8' >> /etc/resolvconf/resolv.conf.d/head
 
 cp rc-local.service /etc/systemd/system/rc-local.service
-
-service resolvconf restart
 
 systemctl enable rc-local
 
