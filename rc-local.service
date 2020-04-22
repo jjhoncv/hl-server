@@ -5,7 +5,7 @@
  WorkingDirectory=/root/hl
  Type=simple
  Restart=always
- ExecStart=/usr/bin/screen -DmS hl-server /usr/bin/wine hlds.exe -game cstrike -ip 178.128.158.86 -console -port 27016 +maxplayers 6 +map cs_mansion
+ ExecStart=/usr/bin/screen -DmS hl-server /usr/bin/wine hlds.exe -game cstrike -ip 18.230.85.157 -console -port 27016 +maxplayers 6 +map cs_mansion
  TimeoutSec=0
  StandardOutput=tty
  RemainAfterExit=yes
